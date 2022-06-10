@@ -29,7 +29,7 @@
                 Mulai Sekarang 
             </h1>
             <p class="subheader">
-                Mohon masuk menggunakan akun yang sudah <br> terdaftar di website KawanData
+                Mohon masuk menggunakan akun yang sudah <br> terdaftar di website <span class="text-blue">KawanKarir</span>
             </p>
             <p>
                 <a class="btn btn-border btn-google-login" href="#">
