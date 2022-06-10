@@ -17,21 +17,35 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kelas</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bootcamp</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Donasi</a>
-                    </li>
                 </ul>
-                <div class="d-flex">
-                    <a href="{{route('login')}}" class="btn btn-master btn-secondary me-3">
-                        Masuk
-                    </a>
-                    <a href="{{route('login')}}" class="btn btn-master btn-primary">
-                        Daftar
-                    </a>
-                </div>
+                @auth
+                    <div class="d-flex user-logged nav-item dropdown no-arrow">
+                        <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Holla, {{Auth::user()->name}}
+                            <img src="{{Auth::user()->avatar}}" class="user-photo rounded-circle" alt="">
+                            <ul class="dropdown" aria-labelledby="dropdownMenuLink" style="right: 0; left: auto">
+                                <li>
+                                    <a href="#" class="dropdown-item">Dashboard Saya</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit()">Keluar</a>
+                                    <form id="logout-form" action="{{route('logout')}}" method="post" style="display: none">
+                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                    </form>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                @else
+                    <div class="d-flex">
+                        <a href="{{route('login')}}" class="btn btn-master btn-secondary me-3">
+                            Masuk
+                        </a>
+                        <a href="{{route('login')}}" class="btn btn-master btn-primary">
+                            Daftar
+                        </a>
+                    </div>
+                @endauth
             </div>
         </div>
     </nav>
