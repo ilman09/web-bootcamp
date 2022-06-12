@@ -25,7 +25,7 @@
                             <img src="{{Auth::user()->avatar}}" class="user-photo rounded-circle" alt="">
                             <ul class="dropdown" aria-labelledby="dropdownMenuLink" style="right: 0; left: auto">
                                 <li>
-                                    <a href="#" class="dropdown-item">Dashboard Saya</a>
+                                    <a href="{{route('dashboard')}}" class="dropdown-item">Dashboard Saya</a>
                                 </li>
                                 <li>
                                     <a href="#" class="dropdown-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit()">Keluar</a>
