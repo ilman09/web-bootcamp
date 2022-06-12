@@ -11,6 +11,7 @@ use App\Models\Camp;
 use App\Models\Discount;
 use Auth;
 use Mail;
+
 class CheckoutController extends Controller
 {
     /**
@@ -32,7 +33,7 @@ class CheckoutController extends Controller
     {
         if ($camp->isRegistered) {
             $request->session()->flash('error', "Kamu sudah terdaftar di pelatihan {$camp->title}.");
-            return redirect(route('dashboard'));
+            return redirect(route('user.dashboard'));
         }
         return view('checkout.create', [
             'camp' => $camp

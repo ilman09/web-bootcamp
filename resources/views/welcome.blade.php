@@ -369,7 +369,7 @@
                                     Mentornya keren menyampaikan setiap materinya juga detail dan mudah dipahami.
                                 </p>
                                 <div class="user">
-                                    <img src="{{asset('images/fanny_photo.pn')}}" class="photo" alt="">
+                                    <img src="{{asset('images/anesa.png')}}" class="photo rounded-circle" alt="">
                                     <div class="info">
                                         <h4 class="name">
                                             Anesa
@@ -388,7 +388,7 @@
                                     Kelas yang paling recommended pokoknya buat investasi ilmu di era revolusi industri 4.0.
                                 </p>
                                 <div class="user">
-                                    <img src="{{asset('images/angga.pn')}}" class="photo" alt="">
+                                    <img src="{{asset('images/dar.png')}}" class="photo rounded-circle" alt="">
                                     <div class="info">
                                         <h4 class="name">
                                             Ilman
@@ -407,10 +407,10 @@
                                     Kelas yang sangat bermanfaat dan ilmu up to-date dan yang paling penting biayanya terjangkau.
                                 </p>
                                 <div class="user">
-                                    <img src="{{asset('images/beatrice.pn')}}" class="photo" alt="">
+                                    <img src="{{asset('images/fonia.png')}}" class="photo rounded-circle" alt="">
                                     <div class="info">
                                         <h4 class="name">
-                                            Nafa
+                                            Fonia
                                         </h4>
                                         <p class="role">
                                             QA at Facebook

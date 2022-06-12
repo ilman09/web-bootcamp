@@ -17,7 +17,7 @@ class AdminUserSeeder extends Seeder
     {
         User::create([
             'name' => 'admin',
-            'email' => 'dar@webbootcamp.com',
+            'email' => 'dar@kawankarir.com',
             'email_verified_at' => date('Y-m-d H:i:s', time()),
             'password' => \bcrypt('password'),
             'is_admin' => true
