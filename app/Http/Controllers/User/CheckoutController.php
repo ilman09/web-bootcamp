@@ -6,9 +6,11 @@ use App\Http\Controllers\Controller;
 use App\Models\Checkout;
 use Illuminate\Http\Request;
 use App\Http\Requests\User\Checkout\Store;
+use App\Mail\Checkout\AfterCheckout;
 use App\Models\Camp;
+use App\Models\Discount;
 use Auth;
-
+use Mail;
 class CheckoutController extends Controller
 {
     /**
@@ -57,8 +59,11 @@ class CheckoutController extends Controller
         $user->occupation = $data['occupation'];
         $user->save();
 
-        //create table checkout
+        // create checkout
         $checkout = Checkout::create($data);
+        
+        // sending email
+        Mail::to(Auth::user()->email)->send(new AfterCheckout($checkout));
 
         return redirect(route('checkout.success'));
     }

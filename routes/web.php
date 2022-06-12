@@ -26,11 +26,11 @@ Route::get('auth/google/callback', [UserController::class, 'handleProviderCallba
 Route::middleware(['auth'])->group(function () {
     //checkout routes
     Route::get('checkout/success', [CheckoutController::class, 'success'])->name('checkout.success'); 
-Route::get('checkout/{camp:slug}', [CheckoutController::class, 'create'])->name('checkout.create'); 
-Route::post('checkout/{camp}', [CheckoutController::class, 'store'])->name('checkout.store'); 
+    Route::get('checkout/{camp:slug}', [CheckoutController::class, 'create'])->name('checkout.create'); 
+    Route::post('checkout/{camp}', [CheckoutController::class, 'store'])->name('checkout.store'); 
 
-//dashboard
-Route::get('dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
+    //dashboard
+    Route::get('dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
 });
 
 //Route::get('/dashboard', function () {
