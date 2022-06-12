@@ -9,14 +9,14 @@
                         DASHBOARD
                     </p>
                     <h2 class="primary-header ">
-                        My Bootcamps
+                        Pelatihan Saya
                     </h2>
                 </div>
             </div>
             <div class="row my-5">
+                @include('components.alert')
                 <table class="table">
                     <tbody>
-
                     @forelse ($checkouts as $checkout)
                         <tr class="align-middle">
                             <td width="18%">
@@ -42,7 +42,7 @@
                             </td>
                             <td>
                                 <a href="https://wa.me/081398328574?text=Hi, saya ingin bertanya tentang kelas {{$checkout->Camp->title}}" class="btn btn-primary">
-                                        Contact Support
+                                        Hubungi Bantuan
                                  </a>
                             </td>
                         </tr>
