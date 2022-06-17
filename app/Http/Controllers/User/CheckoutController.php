@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 use App\Http\Requests\User\Checkout\Store;
 use App\Mail\Checkout\AfterCheckout;
 use App\Models\Camp;
-use App\Models\Discount;
 use Auth;
 use Mail;
 
