@@ -218,12 +218,12 @@
                                     GILA CODING
                                 </p>
                                 <h1 class="price text-center">
-                                    $280K
+                                    Rp280k
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        Pro Techstack Kit
+                                        Dasar-Dasar Python
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
@@ -231,7 +231,7 @@
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        iMac Pro 2021 & Display
+                                        Python dan Pengolahan Nilai
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
@@ -239,7 +239,7 @@
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        1-1 Mentoring Program
+                                        Bekerja dengan String
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
@@ -247,7 +247,15 @@
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        Final Project Certificate
+                                        Bekerja dengan Angka
+                                    </p>
+                                    <div class="clear"></div>
+                                    <div class="divider"></div>
+                                </div>
+                                <div class="item-benefit-pricing mb-4">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
+                                    <p>
+                                        Olah Data pada Python
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
@@ -263,25 +271,10 @@
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        Future Job Opportinity
+                                        Final Project Certificate
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Premium Design Kit
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Website Builder
-                                    </p>
-                                    <div class="clear"></div>
                                 </div>
                                 <p>
                                     <a href="{{route('checkout.create', 'gila-coding')}}" class="btn btn-master btn-secondary w-100 mt-3">
@@ -296,12 +289,12 @@
                                     BARU MULAI
                                 </p>
                                 <h1 class="price text-center">
-                                    $140K
+                                    Rp140k
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        1-1 Mentoring Program
+                                        Python untuk Data Science
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
@@ -309,7 +302,15 @@
                                 <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        Final Project Certificate
+                                        Ensemble Methods
+                                    </p>
+                                    <div class="clear"></div>
+                                    <div class="divider"></div>
+                                </div>
+                                <div class="item-benefit-pricing mb-4">
+                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
+                                    <p>
+                                        Visualisasi data
                                     </p>
                                     <div class="clear"></div>
                                     <div class="divider"></div>
@@ -322,12 +323,13 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing">
+                                <div class="item-benefit-pricing mb-4">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
-                                        Future Job Opportinity
+                                        Final Project Certificate
                                     </p>
                                     <div class="clear"></div>
+                                    <div class="divider"></div>
                                 </div>
                                 <p>
                                     <a href="{{route('checkout.create', 'baru-mulai')}}" class="btn btn-master btn-secondary w-100 mt-3">
