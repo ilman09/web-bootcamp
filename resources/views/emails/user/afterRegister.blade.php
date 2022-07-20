@@ -3,7 +3,7 @@
 
 Hi {{$user->name}}
 <br>
-Welcome to KawanKarir, Akun anda telah berhasil dibuat. Sekarang Anda dapat memilih pelatihan terbaik!
+Welcome to LAST PROJECT, Akun anda telah berhasil dibuat. Sekarang Anda dapat memilih pelatihan terbaik!
 
 @component('mail::button', ['url' => route('login')])
 Login Here
@@ -12,3 +12,12 @@ Login Here
 Thanks,<br>
 {{ config('app.name') }}
 @endcomponent
+
+
+
+
+
+
+
+
+
